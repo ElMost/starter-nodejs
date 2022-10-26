@@ -4,7 +4,7 @@ import * as express from "express";
 const app = express();
 const port = 8080;
 
-// First route
+// First routes
 app.get("/hello", (req, res) => {
   res.send({ message: "Hello World !" });
 });
